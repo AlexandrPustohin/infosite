@@ -1,0 +1,60 @@
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+   
+    
+</head>
+<body>
+	
+		
+		<div class="container" >
+			<div class = "backbtn" >
+				<a href="../skver.html"> <img class = "backbtn" src="../img/back_button.png" alt="Назад"></a>
+			</div> 
+		
+		  <!-- Panels -->
+		    <div class="swipe" >
+			
+			<?php
+				$home = $_SERVER['DOCUMENT_ROOT'];
+				$str ='../img/skver/sovrem/'; 
+				$dir = $home .'/kich/img/skver/sovrem/';
+				$handle = opendir($dir);
+
+				while (false !== ($file = readdir($handle))) { 
+
+					if ($file != "." && $file != "..") {  
+					   echo '<div class="panel"  data-img="'.$str.$file.'"></div>';
+					} 
+				}
+			?> 
+			
+			
+			</div>
+			<!--<div class="info">
+			 Info типа инво на картинке можно наверно кудато сдвинуть
+			<div class="inner">
+			  <h3>Simply swipe on any device!</h3>
+			  <p>Use this buttons or your fingers. No matter what you do, no matter which device you choose, the picture will swipe and swipe again!</p>
+			</div>
+			</div>
+			-->
+					<div class="buttons">
+					<div id="in_btn">
+					  <button class="btn-prev" disabled>&larr;</button>
+					  <button class="btn-next">&rarr;</button>
+					  </div>
+					</div>
+		    
+	    </div>
+		
+		
+
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+
+
+</body>
+</html>

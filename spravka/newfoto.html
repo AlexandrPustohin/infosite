@@ -1,0 +1,50 @@
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+   
+    
+</head>
+<body>
+	
+		
+		<div class="container" >
+		<div class = "backbtn" >
+			<a href="../spravka.html"> <img class = "backbtn" src="../img/back_button.png" alt="Назад"></a>
+		</div> 
+		
+		  <!-- Panels -->
+		    <div class="swipe" >
+			
+			<?php
+				$home = $_SERVER['DOCUMENT_ROOT'];
+				$str ='../img/spravka/sovrem/'; 
+				$dir = $home .'/kich/img/spravka/sovrem/';
+				$handle = opendir($dir);
+
+				while (false !== ($file = readdir($handle))) { 
+
+					if ($file != "." && $file != "..") {  
+					   echo '<div class="panel"  data-img="'.$str.$file.'"></div>';
+					} 
+				}
+			?> 
+			</div>
+					<div class="buttons">
+					<div id="in_btn">
+					  <button class="btn-prev" disabled>&larr;</button>
+					  <button class="btn-next">&rarr;</button>
+					  </div>
+					</div>
+		    
+	    </div>
+		
+		
+
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+
+
+</body>
+</html>

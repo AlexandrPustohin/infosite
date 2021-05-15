@@ -1,0 +1,63 @@
+body{
+    color:rgb(199, 33, 33);
+    background-color:rgba(250, 193, 144);
+    
+}
+
+.back{
+	position:absolute;
+	top:0;
+	left:0;
+	
+}
+
+.head2{
+    text-align: center;
+    vertical-align: top;
+    margin: 0 auto;
+    
+}
+.spravka{
+	position: relative;	
+	margin:0;
+}
+ h1{
+	 margin:0;
+ }
+ 
+ #text{
+	 margin:20px 140px 0 140px;
+     text-align: justify;
+     font-size: 25px;
+	 
+ }
+ #lenta_vert_l{
+	position:absolute;
+	left:0;
+	background-image: url('../img/ind/orden.png'); /* Параметры фона */
+	width:66px;
+	height:100%;
+	float: left;
+	margin:  0 ;
+}
+#lenta_vert_r{
+	position:absolute;
+	right:0;
+	background-image: url('../img/ind/orden.png'); /* Параметры фона */
+	width:66px;
+	height:100%;
+	float: right;
+	margin:  0 ;
+}
+#lenta_hor{
+	
+	/*background-image: url('../img/ind/hor.png');  Параметры фона */
+	height:10px;
+	margin:  50px 0 0 0;
+}
+.back{
+	position:absolute;
+	top:0;
+	left:0;
+	
+}

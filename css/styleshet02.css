@@ -1,0 +1,84 @@
+* {
+	margin:0; 
+	padding:0
+	}
+body {
+    font:12px Verdana,Arial; 
+    color:rgb(199, 33, 33);
+    background-color:rgba(250, 193, 144);
+}
+p {
+    line-height:1.4; 
+    margin-bottom:12px
+}
+#wrapper {
+    width:1873px; 
+    margin:50px auto
+}
+#container {
+    background: rgba(250, 193, 144);
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	height: 435px;
+	padding: 32px;
+	position: relative;
+}
+.sliderbutton {
+    float:left; 
+    width:25px; 
+    height:435px; 
+    cursor:pointer
+	}
+#slideleft {
+    background:url(img/icon.gif) -50px -465px no-repeat
+}
+#slideleft:hover {
+    background-position:-0 -465px
+}
+#slideright {
+    background:url(img/right.gif) 0 90px no-repeat
+}
+#slideright:hover {
+    background-position:-50px 90px
+}
+#slider {
+    float:left; 
+    position:relative; 
+    overflow:auto; 
+    width:1058px;
+    height:735px}
+#slider ul {
+	position:absolute; 
+	list-style:none; 
+	top:0; 
+	left:0}
+#slider li {
+	float:left;
+	width:1058px; 
+	height:735px
+	}
+.pagination {
+	position:absolute; 
+	top:40px; 
+	right:61px; 
+	list-style:none; 
+	height:25px
+	}
+.pagination li {
+	float:left; 
+	cursor:pointer; 
+	height:8px; 
+	width:8px; 
+	background: rgba(250, 193, 144); 
+	margin:0 4px 0 0; 
+	border:1px solid rgba(250, 193, 144)
+	}
+.pagination li:hover, li.current {
+	background: rgba(250, 193, 144)
+	}
+.back{
+	position:absolute;
+	top:0;
+	left:0;
+	
+}	

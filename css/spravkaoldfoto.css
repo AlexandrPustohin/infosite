@@ -1,0 +1,15 @@
+body{
+    color:rgb(199, 33, 33);
+    background-color:rgba(250, 193, 144);
+    
+}
+.oldfoto{
+	position: absolute;
+	text-align: center;
+}
+.back{
+	position:absolute;
+	top:0;
+	left:0;
+	
+}

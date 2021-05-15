@@ -1,0 +1,89 @@
+body{
+    color:rgb(199, 33, 33);
+    background-color:rgba(250, 193, 144);
+    
+}
+.buttonup {
+width:50px; 
+height:50px;
+position:fixed;
+bottom:0px;
+right:0px;
+}
+ #conteiner{
+	position: relative;	
+	margin:50px 0 0 0;
+	text-align: center;
+}
+
+ 
+ #content{
+     margin:20px 140px 0 140px;
+     text-align: justify;
+     font-size: 25px;
+ }
+#spisok{
+	/*margin:;
+	width:36%;
+	border: 2px solid red;*/
+    
+	font-size: 25px;
+ }
+ #img{
+	margin:auto;
+	width: auto;
+	height: 100%;
+	display: block;
+ }
+
+h3{
+    text-align:center;
+    
+}
+
+ .back{
+	position:absolute;
+	top:0;
+	left:0;
+	
+}
+.foto{
+	/*margin:;
+	width:36%;
+	border: 2px solid red;*/
+    height:600px;
+	
+ }
+ .img{
+	margin:auto;
+	width: auto;
+	height: 100%;
+	display: block;
+ }
+
+.head2{
+    text-align:center;
+    
+}
+#lenta_vert_l{
+	position:absolute;
+	left:0;
+	background-image: url('../img/ind/orn_v.png'); /* Параметры фона */
+	width:49px;
+	height:100%;
+	float: left;
+	margin:  0 ;
+}
+#lenta_vert_r{
+	position:absolute;
+	right:0;
+	background-image: url('../img/ind/orn_v.png'); /* Параметры фона */
+	width:49px;
+	height:100%;
+	float: right;
+	margin:  0 ;
+}
+ 
+
+ 
+

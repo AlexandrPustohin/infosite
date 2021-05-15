@@ -1,0 +1,116 @@
+body{
+    color:rgb(199, 33, 33);
+    background-color:rgba(250, 193, 144);	
+	
+	background: rgba(255,255,255,0.1);
+    
+    background-image: url(/kich/img/fon_gen.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    
+}
+
+.back{
+	position:absolute;
+	top:0;
+	left:0;
+	
+}
+.div_h1{
+	border: 2px solid rgb(199, 33, 33);
+	border-radius: 8px;
+	background-color:rgba(250, 193, 144, 0.7);
+	position: relative;
+	-webkit-box-sizing: border-box;
+	text-align: center;
+	
+	margin: 40px 50px 0 50px;
+	
+}
+.div_h1>h1{
+	margin:0;
+}	
+.gen_foto{
+	height:400px;
+	margin:0 0 0 0;
+}
+.img{
+	margin:auto;
+	width: auto;
+	height: 100%;
+	display: block;
+ }
+
+.head{
+    text-align:center;
+    
+}
+.buttonup {
+width:50px; 
+height:50px;
+position:fixed;
+bottom:0px;
+right:0px;
+}
+#lenta{
+	background-image: url('../img/lenta_st.png'); /* Параметры фона */
+	height:50px;
+	margin: 40px 20px 0 20px;
+	
+}
+#text{
+	padding:20px;
+	text-align:justify;
+	font-weight: bold;
+}
+#line{
+	text-align:center;
+	size: 10px;
+	color: rgb(199, 33, 33);
+}
+ #photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	
+	margin: 80px 10px;
+	
+}
+
+#con1{
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+    width: 20%;
+    border: 2px solid rgb(199, 33, 33);
+	border-radius: 8px;
+	background-color:rgba(250, 193, 144, 0.7);
+    height: auto;
+    
+}
+
+#con1>a>img{
+    width: auto;
+    height: 200px;
+    border-radius: 8px;
+	text-align: center;
+}
+
+#con2{
+	font-size:18px;
+	width: 100%;
+    margin: 2px 2px 2px 2px;
+    height: auto;
+	text-align: center;
+}
+
+
+ 
+ 
+
+ 
+
