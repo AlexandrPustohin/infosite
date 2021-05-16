@@ -6,7 +6,10 @@
     <link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <body>
-    
+    	<script>
+	//запрещает нажатие правой кнопки мыши на сайте
+	document.oncontextmenu = cmenu; function cmenu() { return false; }
+	</script>
         <div class = "content">
 			<!--Заголовок страницы-->
             <div class = "top">

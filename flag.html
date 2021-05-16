@@ -6,7 +6,11 @@
     <link rel="stylesheet" type="text/css" href="./css/flag.css">
 </head>
 <body>
-	<div class = "back">
+	<script>
+	//запрещает нажатие правой кнопки мыши на сайте
+	document.oncontextmenu = cmenu; function cmenu() { return false; }
+	</script>
+<div class = "back">
       <a href="./index.html"> <img class = "backbtn" src="./img/back_button.png" alt="Назад"></a>
 	</div>
     <div id="lenta_hor">
